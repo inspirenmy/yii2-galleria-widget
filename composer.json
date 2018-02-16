@@ -13,6 +13,12 @@
         "yiisoft/yii2": "*",
         "bower-asset/galleria": "*"
     },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "xj\\galleria\\": ""
